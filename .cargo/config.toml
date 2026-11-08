@@ -1,0 +1,11 @@
+[build]
+target = "armv7a-none-eabi.json"
+
+[unstable]
+build-std = ["core", "alloc"]
+build-std-features = ["compiler-builtins-mem"]
+json-target-spec = true
+
+# Forge plugins are NRO files linked with the Switch 32-bit layout.
+[target.armv7a-none-eabi]
+rustflags = ["-C", "link-arg=-Tlink/switch32.ld", "-C", "link-arg=--build-id=sha1"]
