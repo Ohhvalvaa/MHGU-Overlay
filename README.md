@@ -85,7 +85,7 @@ python tools/elf_to_nro.py target/armv7a-none-eabi/release/libmhgu_overlay.so mh
   by Fexty (MIT); [MHGURecomp](https://github.com/morerokk/MHGURecomp) by Rokk (MIT).
 - Weapon icons: [MHGenDatabase](https://github.com/gatheringhallstudios/MHGenDatabase) classic artwork (MIT).
 - Font: [Roboto](https://fonts.google.com/specimen/Roboto) (Apache 2.0).
-- Sister project: [MH World Overlay](https://github.com/Ohhvalvaa/mh-world-overlay).
+- Sister project: [MHW-Overlay](https://github.com/Ohhvalvaa/MHW-Overlay).
 
 License notices are in [`licenses/`](licenses). Monster Hunter is a trademark of CAPCOM; this is an
 unofficial fan project, not affiliated with CAPCOM.
